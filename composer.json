@@ -1,0 +1,26 @@
+{
+    "name": "mustaphaibnel/role",
+    "description": "role package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mustaphaibnel",
+            "email": "mustaphaibnel@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "MustaphaIbnel\\Role\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MustaphaIbnel\\Role\\RoleServiceProvider"
+            ]
+        }
+    }
+}
